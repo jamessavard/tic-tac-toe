@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    text-align: left;
+}
+
+#square {
+    position:relative;
+}
+
+#container {
+	width: 800px;	
+}
+
+#left {
+	float: left;
+	width: 30%;
+}
+
+#box {
+	width: 40%;
+	display: inline-block;	
+}
+
+#right {
+	float: right;
+	width: 30%;
+}
+

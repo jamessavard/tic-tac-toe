@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/tic-tac-toe.css">
+    <script src="js/tic-tac-toe.js"></script>
+    <title>Tic-Tac-Toe Game with Log</title>
+</head>
+
+<body>
+	<div id="container">
+    	<h1>Tic-Tac-Toe Game with Log</h1>
+    	<div id="left">
+        	<h3>Player X Moves:</h3>
+            <ul id="xlist">
+            </ul>
+        </div>
+        <div id="box">
+            <div align="center">
+                <canvas id="square1"  width="40" height="40" style="border:1px solid black" onclick="squareClicked(1)"></canvas>
+                <canvas id="square2" width="40" height="40" style="border:1px solid black" onclick="squareClicked(2)"></canvas>
+                <canvas id="square3" width="40" height="40" style="border:1px solid black" onclick="squareClicked(3)"></canvas><br/>
+                <canvas id="square4" width="40" height="40" style="border:1px solid black" onclick="squareClicked(4)"></canvas>
+                <canvas id="square5" width="40" height="40" style="border:1px solid black" onclick="squareClicked(5)"></canvas>
+                <canvas id="square6" width="40" height="40" style="border:1px solid black" onclick="squareClicked(6)"></canvas><br/>
+                <canvas id="square7" width="40" height="40" style="border:1px solid black" onclick="squareClicked(7)"></canvas>
+                <canvas id="square8" width="40" height="40" style="border:1px solid black" onclick="squareClicked(8)"></canvas>
+                <canvas id="square9" width="40" height="40" style="border:1px solid black" onclick="squareClicked(9)"></canvas>
+            <div id="textMessage"></div>
+            </div>
+            </div>
+            <div id="right">
+            	<h3>Player O Moves:</h3>
+                <ul id="olist">
+                </ul>
+            </div>
+</body>
+</html>
