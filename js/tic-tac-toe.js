@@ -1,5 +1,5 @@
 // Tic-Tac-Toe with Log
-// March 5, 2016 by James Savard
+// March 6, 2016 by James Savard
 
 // set needed variables
 var selected;
@@ -97,7 +97,7 @@ function squareClicked(squareNumber) {
 			content[squareNumber] = 'O';
 		}
 		counter++;
-		alert('Click for Next Move');
+		
 		document.getElementById("textMessage").innerHTML = "";
 		selected[squareNumber] = true;
 		
@@ -116,7 +116,7 @@ function squareClicked(squareNumber) {
 			olist.appendChild(entry);
 		}
 		squaresFilled++;
-		
+		alert(entryText + ' - click for Next Move');
 		// switch to the other player
 		if (player === "X") {
 			player = "O";
